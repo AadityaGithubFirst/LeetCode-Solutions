@@ -16,9 +16,9 @@ class Solution:
             richest = max(richest, sum(account))
         return richest
 ```
-###### Runtime and Memory Utilization
+###### Runtime 🕙 and Memory Utilization 🔲
 
-|Memory Utilization (MB)|Run Time (ms)|
+|Run Time (ms)|Memory Utilization (MB)|
 |------------|------------|
-|16.54|54|
+|54|16.54|
 ###### Explanation of Solution
