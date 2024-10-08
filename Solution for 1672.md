@@ -48,4 +48,4 @@ class Solution:
 |54|16.64|
 
 ###### Explanation of the Solution
-This was the solution that I created when I tried solving it after having almost three years of experience in python. As it can be seen that this is just a single line solution. Let us look inside the brackets from the brackets it can be seen that I iterate through the accounts finding the sum of each account and put it into a list. After creating the list I use the sorted command that returns the 
+This was the solution that I created when I tried solving it after having almost three years of experience in python. As it can be seen that this is just a single line solution. Let us look inside the brackets from the brackets it can be seen that I iterate through the accounts finding the sum of each account and put it into a list. After creating the list I use the sorted command that returns the list in a sorted manner. I then take out the last element this is because of the fact that the list that has been made is a sorted list in ascending order so the last element is the maximum value.
