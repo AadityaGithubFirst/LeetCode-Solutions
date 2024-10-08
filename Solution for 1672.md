@@ -33,7 +33,7 @@ from the define part of the function I can see that the value of accounts is a n
 The next line I iterated using a for loop throught the accounts. The next step that I do is that I compare whether the current value of richest is the most or whether the sum of the current list is the highest.
 Finally I returned the maximum value that I obtained.
 
-The time complexity of this code is $$Omega(n^2)$$
+The time complexity of this code is $$\Omega(n^2)$$
 
 #### Solution 2: A medium method (Commonly used method)
 ```{python}
