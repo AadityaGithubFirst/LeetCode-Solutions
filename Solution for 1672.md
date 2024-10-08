@@ -28,16 +28,24 @@ class Solution:
 |------------|------------|
 |54|16.54|
 ###### Explanation of Solution
-This was the first ever problem that I took on in LeetCode. My though process to approaching this problem was first understanding the Question. The question wants us to be able to find the array that has the maximum sum.
+This was the first ever problem that I took on in LeetCode. My though process to approaching this problem was first understanding the question. The question wants us to be able to find the array that has the maximum sum.
 from the define part of the function I can see that the value of accounts is a nested list and the output of the given function has to be an integer. The next step that I did was that I set a datapoint called richest and gave it a default value of 0 because the minimum value that can be kept inside a bank is a positive value.
 The next line I iterated using a for loop throught the accounts. The next step that I do is that I compare whether the current value of richest is the most or whether the sum of the current list is the highest.
 Finally I returned the maximum value that I obtained.
+
+The time complexity of this code is $$Omega(n^2)$$
 
 #### Solution 2: A medium method (Commonly used method)
 ```{python}
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
-        sums = [sum(j) for j in accounts]
-        sums.sort()
-        return sums[-1]
+        return sorted([sum(i) for i in accounts])[-1]
 ```
+###### Runtime 🕙 and Memory Utilization 🔲
+
+|Run Time (ms)|Memory Utilization (MB)|
+|------------|------------|
+|54|16.64|
+
+###### Explanation of the Solution
+This was the solution that I created when I tried solving it after having almost three years of experience in python. As it can be seen that this is just a single line solution. Let us look inside the brackets from the brackets it can be seen that I iterate through the accounts finding the sum of each account and put it into a list. After creating the list I use the sorted command that returns the 
