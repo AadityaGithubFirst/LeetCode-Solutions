@@ -48,3 +48,5 @@ class Solution:
 |33|16.46|
 
 ###### Explanation of the solution
+
+I did this as a single line solution. The first thing that I do is that I convert the numbers into their binary format. and I counted all the times a one came up this is because in binary the way that it is represented is showing the number of times 2 has to be multipled by the zeros and the number of times one is added by the ones. I then added the length of the binary version of the number and subtracted three. The reason why I subtracted three is because of the fact that most binary numbers start with 0b and on top of that we don not account for the last digit. 
