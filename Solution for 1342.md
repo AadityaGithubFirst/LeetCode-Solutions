@@ -36,3 +36,15 @@ The second thing that I did was that I added a while loop which would break once
 
 #### Solution 2: 
 
+```{python}
+class Solution:
+    def numberOfSteps(self, num: int) -> int:
+        return bin(num).count('1') + len(bin(num)) - 3
+```
+###### Runtime 🕙 and Memory Utilization 🔲
+
+|Run Time (ms)|Memory Utilization (MB)|
+|------------|------------|
+|33|16.46|
+
+###### Explanation of the solution
