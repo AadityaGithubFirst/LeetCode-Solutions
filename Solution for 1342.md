@@ -22,5 +22,17 @@ class Solution:
             else:
                 num/=2
         return counter
-            
 ```
+###### Runtime 🕙 and Memory Utilization 🔲
+
+|Run Time (ms)|Memory Utilization (MB)|
+|------------|------------|
+|39|16.58|
+
+###### Explanation of the solution
+
+In this method the first thing I did was that I initialized a counter variable. 
+The second thing that I did was that I added a while loop which would break once the number is less than or equal to zero (or run only while the number is greater than zero). The first step that I did was that I added 1 to the counter variable because that means one step by default is going to happen. I then checked whether the number is odd. If the number is odd then I subtract one. If the number is even I divide it by two. After the while loop is finished I return the value of the counter variable as that is where my number of steps has been stored. 
+
+#### Solution 2: 
+
